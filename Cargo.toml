@@ -1,0 +1,13 @@
+[package]
+name = "qml_custom_property_minimal"
+version = "0.1.0"
+authors = ["Andreas Pfeil <andreas.pfeil@student.kit.edu>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+qmetaobject = "*"
+cpp = "*"
+
+[build-dependencies]
+cpp_build = "*"
